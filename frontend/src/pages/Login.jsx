@@ -89,7 +89,7 @@ const Login = () => {
                   <Input 
                     type="password" 
                     required
-                    placeholder="password123"
+                    placeholder="admin123"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />
