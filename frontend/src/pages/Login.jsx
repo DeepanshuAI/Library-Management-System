@@ -108,6 +108,12 @@ const Login = () => {
 
               <div className="mt-8 text-center text-sm text-gray-500">
                 Access restricted to authorized administrators.
+                <div className="mt-2">
+                  Don't have an account?{' '}
+                  <Link to="/signup" className="text-[#35A7FF] hover:text-[#66beff] font-medium transition-colors">
+                    Register
+                  </Link>
+                </div>
               </div>
             </Card>
           </motion.div>
